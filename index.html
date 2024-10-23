@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="shortcut icon" href="#"> <!-- to avoid the problem of favicon.ico 404 in the line server -->
+    <link rel="stylesheet" href="main.css">
+    <title>Memory Game</title>
+</head>
+<body>
+    <div class="control-buttons">
+        <span>Start Game</span>
+    </div>
+
+    <div class="info-container">
+        <div class="name">
+            Hello : <span></span>
+        </div>
+        <div class="tries">
+            Wrong Tries : <span>0</span>
+        </div>
+    </div>
+
+    <div class="memory-game-blocks">
+        <div class="game-block" data-mix= "good-morning">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/1.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-mix= "good-morning">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/1.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-mix="tiger">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/2.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-mix="tiger">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/2.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-mix="old-man">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/3.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-mix="old-man">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/3.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-mix="cat">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/4.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-mix="cat">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/4.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-mix="deer">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/5.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-mix="deer">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/5.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-mix="drop-water">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/6.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-mix="drop-water">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/6.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-mix="mount">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/7.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-mix="mount">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/7.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-mix="book">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/8.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-mix="book">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/8.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-mix="rail-road">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/9.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-mix="rail-road">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/9.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-mix="penguin">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/10.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-mix="penguin">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="img/10.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <audio id="success" src="audio/success-sound.mp3" preload="auto"></audio>
+    <audio id="error" src="audio/error.mp3" preload="auto"></audio>
+    <audio id="mouse-click" src="audio/mouse-click.mp3" preload="auto"></audio>
+
+    <script src="main.js"></script>
+</body>
+</html>
